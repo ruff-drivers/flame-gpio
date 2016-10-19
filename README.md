@@ -39,9 +39,11 @@ $('#<device-id>').on('fire', function() {
 
 ### Methods
 
-#### `isBurning`
+#### `isBurning(callback)`
 
 Check whether there is any fire around the ambient.
+
+- `callback:` The callback that takes the first argument as the possible error and the second argument as the state of fire. The state can be `ture` or `false`.
 
 ### Events
 
