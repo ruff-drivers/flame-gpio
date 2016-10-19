@@ -1,0 +1,14 @@
+{
+    "models": [
+        "flame-01"
+    ],
+    "inputs": {
+        "gpio": {
+            "type": "gpio",
+            "args": {
+                "direction": "in",
+                "edge": "falling"
+            }
+        }
+    }
+}

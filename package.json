@@ -1,0 +1,42 @@
+{
+    "name": "flame-01",
+    "version": "2.0.0",
+    "description": "Flame sensor driver with GPIO interface.",
+    "author": "Nanchao Inc.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruff-drivers/flame-01.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ruff-drivers/flame-01/issues"
+    },
+    "homepage": "https://github.com/ruff-drivers/flame-01",
+    "keywords": [
+        "ruff",
+        "driver",
+        "flame"
+    ],
+    "main": "src/index.js",
+    "device-typings": "typings/device.d.ts",
+    "engines": {
+        "ruff": ">=1.2.0 <1.7.0"
+    },
+    "scripts": {
+        "install-sdk": "rvm install --local",
+        "install-rap-dependencies": "rap install",
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "ruff ./test/test.js"
+    },
+    "devDependencies": {
+        "eslint": "^3.5.0",
+        "ruff-standard": "^0.2.2",
+        "rvm": "^0.3.2"
+    },
+    "ruff": {
+        "devDependencies": {
+            "t": "^0.1.7"
+        }
+    }
+}
