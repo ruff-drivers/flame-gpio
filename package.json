@@ -1,5 +1,5 @@
 {
-    "name": "flame-01",
+    "name": "flame-gpio",
     "version": "2.0.0",
     "description": "Flame sensor driver with GPIO interface.",
     "author": "Nanchao Inc.",
